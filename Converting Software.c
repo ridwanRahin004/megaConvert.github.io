@@ -2314,7 +2314,278 @@ int time() //13
 	}
 	else if(action==5)
 	{
-
+		printf("\nMinute Convert to ............");
+		printf("\n1.Nanosecond");
+		printf("\n2.Microsecond");
+		printf("\n3.Milisecond");
+		printf("\n4.Second");
+		printf("\n5.Hour");
+		printf("\n6.Day");
+		printf("\n7.Week");
+		printf("\n8.Month");
+		printf("\n9.Calender Year");
+		printf("\n10.Decade");
+		printf("\n11. Century");
+		printf("\n\n Enter Action: ");
+		scanf("%d" , &second_action);
+		if(second_action==1)
+		{
+			printf("\nMinute Convert to Nanosecond");
+			printf("\n\nEnter Minute: ");
+			scanf("%lf" , &minute);
+			result=minute*6e+10;
+			printf("\nNanosecond: %lf" , result);
+			printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
+			scanf("%d" , &cont_or_exit);
+			if(cont_or_exit==1)
+			{
+				time();
+			}
+			else if(cont_or_exit==0)
+			{
+				action_bar();
+			}
+			else{
+				printf("\t\n\n###Invalid Action###\n");
+				printf("\t\n##Try Again##\n");
+				time();
+			}
+		}
+		else if(second_action==2)
+		{
+			printf("\nMinute Convert to Microsecond");
+			printf("\n\nEnter Minute: ");
+			scanf("%lf" , &minute);
+			result=minute*6e+7;
+			printf("\nMicrosecond: %lf" , result);
+			printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
+			scanf("%d" , &cont_or_exit);
+			if(cont_or_exit==1)
+			{
+				time();
+			}
+			else if(cont_or_exit==0)
+			{
+				action_bar();
+			}
+			else{
+				printf("\t\n\n###Invalid Action###\n");
+				printf("\t\n##Try Again##\n");
+				time();
+			}
+		}
+		else if(second_action==3)
+		{
+			printf("\nMinute Convert to Milisecond");
+			printf("\n\nEnter Minute: ");
+			scanf("%lf" , &minute);
+			result=minute*60000;
+			printf("\nMilisecond: %lf" , result);
+			printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
+			scanf("%d" , &cont_or_exit);
+			if(cont_or_exit==1)
+			{
+				time();
+			}
+			else if(cont_or_exit==0)
+			{
+				action_bar();
+			}
+			else{
+				printf("\t\n\n###Invalid Action###\n");
+				printf("\t\n##Try Again##\n");
+				time();
+			}
+		}
+		else if(second_action==4)
+		{
+			printf("\nMinute Convert to Second");
+			printf("\n\nEnter Minute: ");
+			scanf("%lf" , &minute);
+			result=minute*60;
+			printf("\nSecond: %lf" , result);
+			printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
+			scanf("%d" , &cont_or_exit);
+			if(cont_or_exit==1)
+			{
+				time();
+			}
+			else if(cont_or_exit==0)
+			{
+				action_bar();
+			}
+			else{
+				printf("\t\n\n###Invalid Action###\n");
+				printf("\t\n##Try Again##\n");
+				time();
+			}
+		}
+		else if(second_action==5)
+		{
+			printf("\nMinute Convert to Hour");
+			printf("\n\nEnter Minute: ");
+			scanf("%lf" , &minute);
+			result=minute/60;
+			printf("\nHour: %lf" , result);
+			printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
+			scanf("%d" , &cont_or_exit);
+			if(cont_or_exit==1)
+			{
+				time();
+			}
+			else if(cont_or_exit==0)
+			{
+				action_bar();
+			}
+			else{
+				printf("\t\n\n###Invalid Action###\n");
+				printf("\t\n##Try Again##\n");
+				time();
+			}
+		}
+		else if(second_action==6)
+		{
+			printf("\nMinute Convert to Day");
+			printf("\n\nEnter Minute: ");
+			scanf("%lf" , &minute);
+			result=minute/1440;
+			printf("\nDay: %lf" , result);
+			printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
+			scanf("%d" , &cont_or_exit);
+			if(cont_or_exit==1)
+			{
+				time();
+			}
+			else if(cont_or_exit==0)
+			{
+				action_bar();
+			}
+			else{
+				printf("\t\n\n###Invalid Action###\n");
+				printf("\t\n##Try Again##\n");
+				time();
+			}
+		}
+		else if(second_action==7)
+		{
+			printf("\nMinute Convert to Week");
+			printf("\n\nEnter Minute: ");
+			scanf("%lf" , &minute);
+			result=minute/10080;
+			printf("\nWeek: %lf" , result);
+			printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
+			scanf("%d" , &cont_or_exit);
+			if(cont_or_exit==1)
+			{
+				time();
+			}
+			else if(cont_or_exit==0)
+			{
+				action_bar();
+			}
+			else{
+				printf("\t\n\n###Invalid Action###\n");
+				printf("\t\n##Try Again##\n");
+				time();
+			}
+		}
+		else if(second_action==8)
+		{
+			printf("\nMinute Convert to Month");
+			printf("\n\nEnter Minute: ");
+			scanf("%lf" , &minute);
+			result=minute/43800;
+			printf("\nMonth: %lf" , result);
+			printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
+			scanf("%d" , &cont_or_exit);
+			if(cont_or_exit==1)
+			{
+				time();
+			}
+			else if(cont_or_exit==0)
+			{
+				action_bar();
+			}
+			else{
+				printf("\t\n\n###Invalid Action###\n");
+				printf("\t\n##Try Again##\n");
+				time();
+			}
+		}
+		else if(second_action==9)
+		{
+			printf("\nMinute Convert to Calender Year");
+			printf("\n\nEnter Minute: ");
+			scanf("%lf" , &minute);
+			result=minute/525600;
+			printf("\nCalender Year: %lf" , result);
+			printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
+			scanf("%d" , &cont_or_exit);
+			if(cont_or_exit==1)
+			{
+				time();
+			}
+			else if(cont_or_exit==0)
+			{
+				action_bar();
+			}
+			else{
+				printf("\t\n\n###Invalid Action###\n");
+				printf("\t\n##Try Again##\n");
+				time();
+			}
+		}
+		else if)second_action==10
+		{
+			printf("\nMinute Convert to Decade");
+			printf("\n\nEnter Minute: ");
+			scanf("%lf" , &minute);
+			result=minute/5.256e+6;
+			printf("\nDecade: %lf" , result);
+			printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
+			scanf("%d" , &cont_or_exit);
+			if(cont_or_exit==1)
+			{
+				time();
+			}
+			else if(cont_or_exit==0)
+			{
+				action_bar();
+			}
+			else{
+				printf("\t\n\n###Invalid Action###\n");
+				printf("\t\n##Try Again##\n");
+				time();
+			}
+		}
+		else if(second_action==11)
+		{
+			printf("\nMinute Convert to Century");
+			printf("\n\nEnter Minute: ");
+			scanf("%lf" , &minute);
+			result=minute/5.256e+7;
+			printf("\nCentury: %lf" , result);
+			printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
+			scanf("%d" , &cont_or_exit);
+			if(cont_or_exit==1)
+			{
+				time();
+			}
+			else if(cont_or_exit==0)
+			{
+				action_bar();
+			}
+			else{
+				printf("\t\n\n###Invalid Action###\n");
+				printf("\t\n##Try Again##\n");
+				time();
+			}
+		}
+		else{
+			printf("\t\b\n###Invalid Action###\n");
+			printf("\t\n##Try Again##\n");
+			time();
+		}
 	}
 	else if(action==6)
 	{
