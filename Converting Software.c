@@ -2883,7 +2883,7 @@ int time() //13
            printf("\nDay Convert to Nanosecond");
            printf("\n\nEnter Day: ");
            scanf("%lf"  ,&day);
-           result=day;
+           result=day*8.64e+13;
            printf("\nNanosecond: %lf" , result);
            printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
 			scanf("%d" , &cont_or_exit);
@@ -2906,7 +2906,7 @@ int time() //13
            printf("\nDay Convert to Microsecond");
            printf("\n\nEnter Day: ");
            scanf("%lf"  ,&day);
-           result=day;
+           result=day*8.64e+10;
            printf("\nMicrosecond: %lf" , result);
            printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
 			scanf("%d" , &cont_or_exit);
@@ -2929,7 +2929,7 @@ int time() //13
            printf("\nDay Convert to milisecond");
            printf("\n\nEnter Day: ");
            scanf("%lf"  ,&day);
-           result=day;
+           result=day*8.64e+7;
            printf("\nMilisecond: %lf" , result);
            printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
 			scanf("%d" , &cont_or_exit);
@@ -2952,7 +2952,7 @@ int time() //13
            printf("\nDay Convert to Second");
            printf("\n\nEnter Day: ");
            scanf("%lf"  ,&day);
-           result=day;
+           result=day*86400;
            printf("\nSecond: %lf" , result);
            printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
 			scanf("%d" , &cont_or_exit);
@@ -2975,7 +2975,7 @@ int time() //13
            printf("\nDay Convert to Minute");
            printf("\n\nEnter Day: ");
            scanf("%lf"  ,&day);
-           result=day;
+           result=day*1440;
            printf("\nMinute: %lf" , result);
            printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
 			scanf("%d" , &cont_or_exit);
@@ -2998,7 +2998,7 @@ int time() //13
            printf("\nDay Convert to Hour");
            printf("\n\nEnter Day: ");
            scanf("%lf"  ,&day);
-           result=day;
+           result=day*24;
            printf("\nHour: %lf" , result);
            printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
 			scanf("%d" , &cont_or_exit);
@@ -3021,7 +3021,7 @@ int time() //13
            printf("\nDay Convert to Week");
            printf("\n\nEnter Day: ");
            scanf("%lf"  ,&day);
-           result=day;
+           result=day/7;
            printf("\nWeek: %lf" , result);
            printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
 			scanf("%d" , &cont_or_exit);
@@ -3044,7 +3044,7 @@ int time() //13
            printf("\nDay Convert to Month");
            printf("\n\nEnter Day: ");
            scanf("%lf"  ,&day);
-           result=day;
+           result=day/30.417;
            printf("\nMonth: %lf" , result);
            printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
 			scanf("%d" , &cont_or_exit);
@@ -3067,7 +3067,7 @@ int time() //13
            printf("\nDay Convert to Calender Year");
            printf("\n\nEnter Day: ");
            scanf("%lf"  ,&day);
-           result=day;
+           result=day/365;
            printf("\nCalender Year: %lf" , result);
            printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
 			scanf("%d" , &cont_or_exit);
@@ -3090,7 +3090,7 @@ int time() //13
            printf("\nDay Convert to Decade");
            printf("\n\nEnter Day: ");
            scanf("%lf"  ,&day);
-           result=day;
+           result=day/3650;
            printf("\nDecade: %lf" , result);
            printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
 			scanf("%d" , &cont_or_exit);
@@ -3113,7 +3113,7 @@ int time() //13
            printf("\nDay Convert to Century");
            printf("\n\nEnter Day: ");
            scanf("%lf"  ,&day);
-           result=day;
+           result=day/36500;
            printf("\nCentury: %lf" , result);
            printf("\n\nIf you want to try again enter [1] or enter [0] to main menu");
 			scanf("%d" , &cont_or_exit);
